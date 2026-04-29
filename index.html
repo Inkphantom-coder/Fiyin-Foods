@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=de
+        <titile>Fiyin Foods</title>
+            <link rel="stylesheet" href="style.css" />
+            <style>
+                * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.logo {
+font-size: 1.5rem;
+font-weight: bold;
+color: #5B4FCF
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links a {
+text-decoration: none;
+color: black;
+font-size: 0.95rem;
+}
+
+.nav-links a:hover {
+color: #5B4FCF;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background-color: #f0eeff;
+}
+.hero-text {
+    max-width: 500px;
+}
+
+.tag {
+    color: #5B4FCF;
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #5B4FCF;
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+
+.description {
+    color: #555;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.btn-ghost {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-order {
+    background: #5B4FCF;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 28px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.hero-image {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #5B4FCF;
+}
+
+.hero-image img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 50px 24px;
+}
+
+.btn-signup {
+  width: 300px;
+  padding: 15px;
+  background: #5B4FCF;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-login {
+  width: 300px;
+  padding: 15px;
+  background: white;
+  color: black;
+  border: 1.5px solid #ddd;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+            </style>
+    </head>
+    <body>
+        <nav>
+            <div class="logo">Fiyin Foods</div>
+
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+            <div class="search-icon"></div>
+        </nav>
+        <section class="hero">
+
+            <div class="hero-text">
+                <p class="tag">-Fiyin Foods</p>
+                <h1>We provide fresh foods at Fiyin Foods</h1>
+                <p class="description">We've got you covered At Fiyin Foods with a variety of raw, fresh, dry, & unprocessed foods like: Garri, Yam, Pasta, Rice and Cornflour</p>
+
+                <div class="buttons">
+                    <button class="btn-ghost">Get Started</button>
+                    <button class="btn-order">Order</button>
+                </div>
+            </div>
+
+            <div class="hero-image">
+            <img src="Food.jpg" alt="food" />
+            </div>
+        </section>
+        
+        <section class="auth">
+  <h3>Get Started With Fiyin Foods</h3>
+  <button class="btn-signup">Sign up</button>
+  <button class="btn-login">Log in</button>
+  </section>
+    </body>
+</html>
